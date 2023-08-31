@@ -1,0 +1,626 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 100px 0 24px;
+
+        border-bottom-width: 6px;
+    }
+
+
+    .page_title
+    {
+        font-size: 40px;
+
+        letter-spacing: 8px;
+    }
+
+    .page_title:after
+    {
+        width: 65px;
+        height: 4px;
+        margin-top: 17px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 88px 0 8px;
+    }
+
+
+    .first_section .title
+    {
+        max-width: calc(100vw - 40px);
+    }
+
+
+    .first_section .marquee .swiper-slide
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------------------
+        Sport ferma block
+    -----------------------*/
+    .sport_ferma_block .name
+    {
+        font-size: 24px;
+    }
+
+
+    .sport_ferma_block .title
+    {
+        font-size: 40px;
+
+        margin-top: -35px;
+
+        letter-spacing: 8px;
+    }
+
+
+
+    /*-----------------------
+        FitnesSHOCK block
+    -----------------------*/
+    .fitnesSHOCK_block .name
+    {
+        font-size: 24px;
+    }
+
+
+    .fitnesSHOCK_block .title
+    {
+        font-size: 40px;
+
+        margin-top: -35px;
+
+        letter-spacing: 9px;
+    }
+
+
+
+    /*---------------
+        TIM block
+    ---------------*/
+    .TIM_block .name
+    {
+        font-size: 24px;
+    }
+
+
+    .TIM_block .title
+    {
+        font-size: 40px;
+
+        margin-top: -35px;
+
+        letter-spacing: 3px;
+    }
+
+
+
+    /*--------------------
+        Avangard block
+    --------------------*/
+    .avangard_block .logo
+    {
+        display: flex;
+
+        width: 200px;
+        min-height: 48px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .avangard_block .logo img
+    {
+        max-width: 100%;
+    }
+
+
+    .avangard_block .name
+    {
+        font-size: 24px;
+    }
+
+
+    .avangard_block .title
+    {
+        font-size: 40px;
+
+        margin-top: -35px;
+
+        letter-spacing: 18px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps ol li
+    {
+        font-size: 16px;
+    }
+
+    .steps ol li:before
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .steps .title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 40px;
+    }
+
+    .contacts_info .item + .item,
+    .contacts_info .item:last-child
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .requisites .label
+    {
+        font-size: 16px;
+    }
+
+
+    .contacts_info .requisites .vals
+    {
+        font-size: 14px;
+    }
+
+
+    .contacts_info .item .messenger .icon
+    {
+        margin-right: 8px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .services .head .title
+    {
+        font-size: 26px;
+
+        padding: 0 8px;
+    }
+
+    .services .head .title span
+    {
+        margin: 0 -8px;
+        padding: 0 8px;
+    }
+
+
+    .services .head .desc
+    {
+        padding: 0 8px;
+    }
+
+
+
+    .services .service
+    {
+        position: relative;
+    }
+
+
+    .services .service .name
+    {
+        font-size: 24px;
+
+        width: 100%;
+        margin-bottom: 12px;
+        padding-left: 10px;
+    }
+
+
+    .services .service .price
+    {
+        font-size: 22px;
+
+        width: 100%;
+        margin-bottom: 24px;
+
+        text-align: left;
+    }
+
+
+    .services .service .title
+    {
+        font-size: 17px;
+    }
+
+
+    .services .service .desc
+    {
+        width: 100%;
+    }
+
+
+    .services .service .title
+    {
+        padding-right: 0;
+    }
+
+
+    .services .service .discuss_btn
+    {
+        color: #fff;
+        font-size: 13px;
+
+        position: absolute;
+        top: 36px;
+        right: 0;
+
+        width: auto;
+        height: auto;
+        padding: 5px 20px;
+
+        border: 1px solid #5a4a7c;
+        border-radius: 26px;
+        background: #5a4a7c;
+    }
+
+
+    .services .service .tags
+    {
+        font-size: 13px;
+
+        width: calc(100% + 8px);
+        margin-left: -8px;
+    }
+
+    .services .service .tags > *
+    {
+        margin-left: 8px;
+    }
+
+    .services .service .tags .sep
+    {
+        width: 4px;
+        height: 4px;
+    }
+
+
+    .services .service .logos img
+    {
+        max-height: 30px;
+    }
+
+
+
+    /*-------------------------
+        Cooperation options
+    -------------------------*/
+    .cooperation_options
+    {
+        padding: 48px 0 60px;
+    }
+
+
+    .cooperation_options .item,
+    .cooperation_options .row > *:nth-child(2)
+    {
+        padding: 32px 24px 32px 40px;
+    }
+
+
+    .cooperation_options .item .name
+    {
+        font-size: 24px;
+    }
+
+
+    .cooperation_options .item .btn
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 28px;
+
+        letter-spacing: 3px;
+    }
+
+
+    .service_head .image
+    {
+        margin: -60px 0 -40px;
+    }
+
+
+    .service_head .marquee .swiper-slide
+    {
+        font-size: 24px;
+    }
+
+
+    /*--------------------
+        What we create
+    --------------------*/
+    .what_we_create
+    {
+        padding: 60px 0;
+    }
+
+
+    .what_we_create .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .what_we_create .data .item
+    {
+        font-weight: 400;
+        line-height: normal;
+
+        padding: 6px 16px;
+
+        white-space: normal;
+    }
+
+
+
+    /*-----------------
+        When needed
+    -----------------*/
+    .when_needed
+    {
+        padding: 60px 0;
+    }
+
+
+    .when_needed .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        padding-top: 60px;
+    }
+
+
+    .projects .block_head
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-----------------
+        How we work
+    -----------------*/
+    .how_we_work
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*------------
+        Stages
+    ------------*/
+    .stages
+    {
+        padding: 60px 0;
+    }
+
+
+    .stages .item
+    {
+        padding: 16px 16px 16px 60px;
+    }
+
+
+
+    /*---------------
+        Test week
+    ---------------*/
+    .test_week
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding: 60px 0;
+    }
+
+
+    .team .title
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*--------------------
+        Corporate flag
+    --------------------*/
+    .corporate_flag
+    {
+        padding: 60px 0;
+    }
+
+
+    .corporate_flag .image
+    {
+        right: -10px;
+
+        width: 180px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .top .swiper-slide
+    {
+        font-size: 24px;
+    }
+
+
+
+    footer .info
+    {
+        padding: 24px 0;
+    }
+
+
+
+    footer .data .title
+    {
+        font-size: 32px;
+
+        text-align: center;
+    }
+
+
+    footer .data .desc
+    {
+        display: none;
+    }
+
+
+
+    footer .contacts
+    {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 32px;
+    }
+
+    footer .contacts > *
+    {
+        width: 196px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 20px;
+    }
+
+
+    footer .contacts .email,
+    footer .contacts .telegram
+    {
+        font-size: 16px;
+    }
+
+
+
+    footer .bottom
+    {
+        font-size: 12px;
+
+        padding: 16px 0;
+
+        text-align: center;
+    }
+
+
+    footer .bottom .cont > *
+    {
+        width: 100%;
+    }
+
+    footer .bottom .cont > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

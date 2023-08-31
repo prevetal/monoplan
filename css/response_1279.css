@@ -1,0 +1,1349 @@
+@media print,
+(max-width: 1279px)
+{
+    @keyframes slideDownImage
+    {
+        from
+        {
+            height: 0;
+        }
+        to
+        {
+            height: 448px;
+        }
+    }
+
+
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 18px;
+        --font_size_title: 44px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+
+    header .menu
+    {
+        margin-left: 40px;
+    }
+
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 40px;
+    }
+
+    header .menu_item > a
+    {
+        font-size: 16px;
+
+        padding: 0;
+    }
+
+
+
+    header .email .icon
+    {
+        margin-right: 8px;
+    }
+
+
+
+    header .feedback_btn
+    {
+        font-size: 16px;
+
+        width: 180px;
+        margin-left: 40px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 180px 0 40px;
+    }
+
+
+    .page_title
+    {
+        font-size: 88px;
+    }
+
+    .page_title:after
+    {
+        margin-top: 31px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 18px;
+
+        width: 740px;
+        margin-top: 24px;
+    }
+
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 360px;
+        min-height: 448px;
+        padding-top: 60px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 80px;
+
+        letter-spacing: 30px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+    }
+
+    .first_section .desc.big
+    {
+        font-size: 22px;
+    }
+
+
+    .first_section .image
+    {
+        width: 598px;
+    }
+
+
+    .first_section .marquee .swiper-slide
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*-----------------------
+        Sport ferma block
+    -----------------------*/
+    .sport_ferma_block .data
+    {
+        width: 472px;
+    }
+
+
+    .sport_ferma_block .name
+    {
+        font-size: 36px;
+    }
+
+
+    .sport_ferma_block .site
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+    }
+
+
+    .sport_ferma_block .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+    .sport_ferma_block .desc.big
+    {
+        font-size: 18px;
+    }
+
+
+    .sport_ferma_block .title
+    {
+        font-size: 68px;
+
+        margin-top: 24px;
+
+        letter-spacing: 40px;
+    }
+
+
+    .sport_ferma_block .tags
+    {
+        font-size: 15px;
+
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -4px;
+        margin-left: -20px;
+    }
+
+    .sport_ferma_block .tags > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .sport_ferma_block .tags .sep
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .sport_ferma_block .image
+    {
+        width: 730px;
+        height: 100%;
+        margin-right: -692px;
+    }
+
+
+
+    /*-----------------------
+        FitnesSHOCK block
+    -----------------------*/
+    .fitnesSHOCK_block .data
+    {
+        width: 360px;
+    }
+
+
+    .fitnesSHOCK_block .name
+    {
+        font-size: 36px;
+    }
+
+
+    .fitnesSHOCK_block .site
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+    }
+
+
+    .fitnesSHOCK_block .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+    .fitnesSHOCK_block .desc.big
+    {
+        font-size: 18px;
+    }
+
+
+    .fitnesSHOCK_block .title
+    {
+        font-size: 68px;
+
+        margin-top: 24px;
+        margin-left: -503px;
+
+        letter-spacing: 40px;
+    }
+
+
+    .fitnesSHOCK_block .tags
+    {
+        font-size: 15px;
+
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -4px;
+        margin-left: -20px;
+    }
+
+    .fitnesSHOCK_block .tags > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .fitnesSHOCK_block .tags .sep
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .fitnesSHOCK_block .image
+    {
+        width: 712px;
+        height: 100%;
+        margin-left: -624px;
+    }
+
+
+
+    /*---------------
+        TIM block
+    ---------------*/
+    .TIM_block .data
+    {
+        width: 380px;
+    }
+
+
+    .TIM_block .name
+    {
+        font-size: 36px;
+    }
+
+
+    .TIM_block .site
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+    }
+
+
+    .TIM_block .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+    .TIM_block .desc.big
+    {
+        font-size: 18px;
+    }
+
+
+    .TIM_block .title
+    {
+        font-size: 68px;
+
+        margin-top: 24px;
+
+        letter-spacing: 22px;
+    }
+
+
+    .TIM_block .tags
+    {
+        font-size: 15px;
+
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -4px;
+        margin-left: -20px;
+    }
+
+    .TIM_block .tags > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .TIM_block .tags .sep
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .TIM_block .image
+    {
+        width: 762px;
+        height: 100%;
+        margin-right: -693px;
+    }
+
+
+    .TIM_block .link a
+    {
+        width: 200px;
+    }
+
+
+
+    /*-----------------------
+        Avangard block
+    -----------------------*/
+    .avangard_block .data
+    {
+        width: 360px;
+    }
+
+
+    .avangard_block .name
+    {
+        font-size: 36px;
+    }
+
+
+    .avangard_block .site
+    {
+        font-size: 16px;
+
+        margin-top: 36px;
+    }
+
+
+    .avangard_block .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+    .avangard_block .desc.big
+    {
+        font-size: 18px;
+    }
+
+
+    .avangard_block .title
+    {
+        font-size: 68px;
+
+        margin-top: 24px;
+        margin-left: -296px;
+
+        letter-spacing: 40px;
+    }
+
+
+    .avangard_block .tags
+    {
+        font-size: 15px;
+
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -4px;
+        margin-left: -20px;
+    }
+
+    .avangard_block .tags > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .avangard_block .tags .sep
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .avangard_block .image
+    {
+        width: 688px;
+        height: calc(100% + 100px);
+        margin-left: -600px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        padding: 150px 0;
+    }
+
+
+    .steps ol li
+    {
+        font-size: 22px;
+
+        padding-left: 40px;
+    }
+
+    .steps ol li + li
+    {
+        margin-top: 24px;
+    }
+
+
+    .steps .title
+    {
+        font-size: 48px;
+
+        width: auto;
+        margin-right: -16px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .contacts_info .item .email,
+    .contacts_info .item .messenger,
+    .contacts_info .item .phone
+    {
+        font-size: 24px;
+
+        padding-top: 8px;
+    }
+
+
+    .contacts_info .item .email .icon
+    {
+        position: relative;
+        top: 2px;
+
+        width: 22px;
+        height: 18px;
+        margin-right: 12px;
+    }
+
+
+    .contacts_info .item .messenger .icon
+    {
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
+    }
+
+
+
+    .contacts_info .requisites
+    {
+        margin-top: 68px;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services
+    {
+        padding-bottom: 80px;
+    }
+
+
+    .services .head
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .services .head .title
+    {
+        font-size: 52px;
+
+        padding: 0 12px;
+    }
+
+    .services .head .title span
+    {
+        margin: 0 -12px;
+        padding: 0 12px;
+    }
+
+
+    .services .head .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    .services .service + .service
+    {
+        margin-top: 80px;
+    }
+
+
+
+    .services .service .name
+    {
+        font-size: 40px;
+
+        width: calc(100% - 188px);
+        padding-left: 21px;
+    }
+
+
+    .services .service .price
+    {
+        font-size: 32px;
+
+        width: 180px;
+    }
+
+
+    .services .service .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .services .service .job_types .label
+    {
+        font-size: 20px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .services .service .job_types ol li
+    {
+        font-size: 18px;
+
+        min-height: 40px;
+        padding-left: 40px;
+    }
+
+
+    .services .service .discuss_btn
+    {
+        font-size: 16px;
+
+        width: 180px;
+    }
+
+
+    .services .service .tags
+    {
+        font-size: 15px;
+
+        width: calc(100% + 20px);
+        margin-top: 40px;
+        margin-bottom: -4px;
+        margin-left: -20px;
+    }
+
+    .services .service .tags > *
+    {
+        margin-bottom: 4px;
+        margin-left: 20px;
+    }
+
+    .services .service .tags .sep
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .services .service .logos
+    {
+        width: calc(100% + 40px);
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+
+    .services .service .logos > *
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*-------------------------
+        Cooperation options
+    -------------------------*/
+    .cooperation_options
+    {
+        padding: 68px 0 80px;
+    }
+
+
+    .cooperation_options .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .cooperation_options .item
+    {
+        min-height: 500px;
+        padding: 48px;
+    }
+
+    .cooperation_options .row > *:nth-child(2)
+    {
+        min-height: 560px;
+        padding: 56px 52px;
+    }
+
+
+    .cooperation_options .item .name
+    {
+        font-size: 26px;
+    }
+
+    .cooperation_options .item .name:before,
+    .cooperation_options .item:nth-child(3) .name:before
+    {
+        left: -48px;
+
+        width: 26px;
+        height: 28px;
+    }
+
+
+    .cooperation_options .item .included
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+    }
+
+
+    .cooperation_options .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .cooperation_options .item .price
+    {
+        font-size: 18px;
+    }
+
+    .cooperation_options .item .price .val
+    {
+        font-size: 24px;
+
+        margin-left: 8px;
+    }
+
+
+    .cooperation_options .item .btn
+    {
+        font-size: 15px;
+
+        width: 220px;
+        height: 52px;
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .data
+    {
+        width: 436px;
+    }
+
+
+    .service_head .pre_title
+    {
+        font-size: 40px;
+    }
+
+
+    .service_head .title
+    {
+        font-size: 80px;
+
+        margin-bottom: 80px;
+    }
+
+    .service_head .title:after
+    {
+        margin-top: 32px;
+    }
+
+
+    .service_head .desc
+    {
+        font-size: 20px;
+
+        margin-top: 24px;
+    }
+
+    .service_head .desc.big
+    {
+        font-size: 24px;
+
+        margin-top: 40px;
+    }
+
+
+    .service_head .image
+    {
+        top: -140px;
+
+        width: auto;
+        height: 760px;
+        margin-right: -642px;
+    }
+
+
+    .service_head .marquee
+    {
+        margin-top: 80px;
+    }
+
+    .service_head .marquee .swiper-slide
+    {
+        font-size: 36px;
+    }
+
+
+
+    /*--------------------
+        What we create
+    --------------------*/
+    .what_we_create
+    {
+        padding: 80px 0;
+    }
+
+
+    .what_we_create .block_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .what_we_create .data
+    {
+        position: relative;
+        z-index: 7;
+
+        width: 608px;
+    }
+
+
+    .what_we_create .data .row
+    {
+        margin-bottom: -28px;
+        margin-left: -16px;
+    }
+
+    .what_we_create .data .row > *
+    {
+        width: auto !important;
+        margin-bottom: 28px;
+        margin-left: 16px;
+    }
+
+
+    .what_we_create .data .item
+    {
+        font-size: 20px;
+
+        padding: 0 24px;
+    }
+
+
+    .what_we_create .image
+    {
+        bottom: -100px;
+
+        margin-right: -840px;
+    }
+
+    .what_we_create .image img
+    {
+        width: 1000px;
+        height: auto;
+    }
+
+
+    .what_we_create .image .price
+    {
+        font-size: 16px;
+
+        bottom: 160px;
+        left: 380px;
+
+        width: 124px;
+        height: 124px;
+    }
+
+
+
+    /*-----------------
+        When needed
+    -----------------*/
+    .when_needed
+    {
+        padding: 80px 0;
+    }
+
+
+    .when_needed .block_head
+    {
+        width: 420px;
+    }
+
+
+    .when_needed .data
+    {
+        width: calc(100% - 480px);
+    }
+
+
+    .when_needed .data ul li:before
+    {
+        top: 8px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        padding-top: 80px;
+    }
+
+
+    .projects .block_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    /*-----------------
+        How we work
+    -----------------*/
+    .how_we_work
+    {
+        padding: 80px 0;
+    }
+
+
+    .how_we_work .logos
+    {
+        margin-top: 32px;
+    }
+
+    .how_we_work .logos > * + *
+    {
+        margin-left: 48px;
+    }
+
+
+    .how_we_work .logos img
+    {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+
+    .how_we_work .desc
+    {
+        width: calc(100% - 400px);
+    }
+
+
+
+    /*------------
+        Stages
+    ------------*/
+    .stages
+    {
+        padding: 80px 0;
+    }
+
+
+    .stages .row
+    {
+        margin-bottom: -20px;
+        margin-left: -60px;
+    }
+
+    .stages .row > *
+    {
+        width: calc(33.333% - 60px);
+        margin-bottom: 20px;
+        margin-left: 60px;
+    }
+
+
+    .stages .item
+    {
+        min-height: 180px;
+        padding: 24px 24px 24px 80px;
+    }
+
+    .stages .item:before
+    {
+        font-size: 100px;
+
+        top: -16px;
+        left: -6px;
+    }
+
+
+    .stages .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .stages .item .btn
+    {
+        font-size: 16px;
+
+        padding: 10px 23px;
+    }
+
+
+    .stages .item .arrow
+    {
+        right: -48px;
+    }
+
+
+    .stages .bottom
+    {
+        margin-top: 40px;
+    }
+
+
+    .stages .bottom .btn
+    {
+        font-size: 16px;
+
+        padding: 11px 31px;
+    }
+
+
+
+    /*---------------
+        Test week
+    ---------------*/
+    .test_week
+    {
+        padding: 80px 0;
+    }
+
+
+    .test_week .data
+    {
+        width: 380px;
+    }
+
+
+    .test_week .data .desc
+    {
+        margin-top: 32px;
+    }
+
+
+    .test_week .price
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+
+    .test_week .price .label
+    {
+        font-size: 20px;
+
+        padding: 16px;
+    }
+
+    .test_week .price .val
+    {
+        font-size: 20px;
+
+        padding: 4px 16px 5px;
+    }
+
+
+    .test_week .calendar
+    {
+        width: 540px;
+        padding: 24px;
+    }
+
+
+    .test_week .calendar .title
+    {
+        font-size: 24px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .test_week .calendar .day
+    {
+        padding: 32px 4px 4px;
+    }
+
+
+    .test_week .calendar .day .number
+    {
+        top: 4px;
+        left: 4px;
+    }
+
+
+    .test_week .calendar .day .name
+    {
+        font-size: 13px;
+    }
+
+    .test_week .calendar .day .name.report
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team
+    {
+        padding: 80px 0;
+    }
+
+
+    .team .title
+    {
+        font-size: 52px;
+    }
+
+
+    .team .desc
+    {
+        font-size: 24px;
+
+        width: 300px;
+        margin-top: 16px;
+    }
+
+
+    .team .items
+    {
+        line-height: 150%;
+
+        margin-left: auto;
+        padding: 0;
+    }
+
+
+    .team .items > *
+    {
+        background-position: 0 8px;
+    }
+
+    .team .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*--------------------
+        Corporate flag
+    --------------------*/
+    .corporate_flag
+    {
+        overflow: visible;
+
+        padding: 140px 0 200px;
+    }
+
+
+    .corporate_flag .title
+    {
+        font-size: 48px;
+
+        padding-left: 0;
+    }
+
+
+    .corporate_flag .title .exp
+    {
+        font-size: 24px;
+
+        top: 104px;
+        left: 168px;
+    }
+
+
+    .corporate_flag .price .label
+    {
+        font-size: 20px;
+
+        padding: 16px;
+    }
+
+    .corporate_flag .price .val
+    {
+        font-size: 20px;
+
+        padding: 4px 16px 5px;
+    }
+
+
+    .corporate_flag .image
+    {
+        bottom: 40px;
+        left: 0;
+
+        width: 260px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .top
+    {
+        padding-bottom: 28px;
+    }
+
+    footer .top .swiper-slide
+    {
+        font-size: 36px;
+    }
+
+
+
+    footer .info
+    {
+        padding: 60px 0;
+    }
+
+
+
+    footer .data
+    {
+        width: 520px;
+    }
+
+    footer .data .title
+    {
+        font-size: 68px;
+    }
+
+    footer .data .desc
+    {
+        margin-top: 36px;
+    }
+
+
+
+    footer .contacts
+    {
+        margin-left: auto;
+    }
+
+
+    footer .contacts .phone
+    {
+        font-size: 26px;
+    }
+
+
+    footer .contacts .email,
+    footer .contacts .telegram
+    {
+        font-size: 20px;
+
+        margin-top: 28px;
+    }
+
+
+    footer .contacts .email .icon
+    {
+        width: 21px;
+        height: 17px;
+        margin-right: 15px;
+        margin-left: 4px;
+    }
+
+    footer .contacts .telegram .icon
+    {
+        width: 28px;
+        height: 28px;
+        margin-right: 12px;
+    }
+
+
+
+    footer .bottom
+    {
+        padding: 32px 0;
+    }
+
+
+
+    footer .privacy_policy_link
+    {
+        margin-right: 0;
+    }
+}

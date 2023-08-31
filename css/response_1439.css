@@ -1,0 +1,414 @@
+@media print,
+(max-width: 1439px)
+{
+    @keyframes slideDownImage
+    {
+        from
+        {
+            height: 0;
+        }
+        to
+        {
+            height: 548px;
+        }
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .data
+    {
+        width: 404px;
+        min-height: 548px;
+        padding-top: 68px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 100px;
+
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 32px;
+    }
+
+    .first_section .title:after
+    {
+        left: 4px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 20px;
+
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .first_section .desc.big
+    {
+        font-size: 26px;
+
+        width: 404px;
+    }
+
+
+    .first_section .image
+    {
+        width: 740px;
+        margin-right: -24px;
+    }
+
+
+    .first_section .marquee
+    {
+        margin-top: 60px;
+    }
+
+
+
+    /*-----------------------
+        Sport ferma block
+    -----------------------*/
+    .sport_ferma_block .data
+    {
+        width: 528px;
+    }
+
+
+    .sport_ferma_block .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .sport_ferma_block .name
+    {
+        font-size: 40px;
+    }
+
+
+    .sport_ferma_block .site
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
+    }
+
+
+    .sport_ferma_block .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+    .sport_ferma_block .desc.big
+    {
+        font-size: 20px;
+
+        width: 436px;
+    }
+
+
+    .sport_ferma_block .title
+    {
+        font-size: 80px;
+
+        margin-top: 28px;
+
+        letter-spacing: 60px;
+    }
+
+
+    .sport_ferma_block .tags
+    {
+        font-size: 15px;
+
+        width: 448px;
+        margin-top: 40px;
+        margin-bottom: -12px;
+        margin-left: -20px;
+    }
+
+    .sport_ferma_block .tags > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .sport_ferma_block .image
+    {
+        width: 772px;
+        height: 100%;
+        margin-right: -716px;
+    }
+
+
+
+    /*-----------------------
+        FitnesSHOCK block
+    -----------------------*/
+    .fitnesSHOCK_block .data
+    {
+        width: 448px;
+    }
+
+
+    .fitnesSHOCK_block .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .fitnesSHOCK_block .name
+    {
+        font-size: 40px;
+    }
+
+
+    .fitnesSHOCK_block .site
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
+    }
+
+
+    .fitnesSHOCK_block .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+    .fitnesSHOCK_block .desc.big
+    {
+        font-size: 20px;
+    }
+
+
+    .fitnesSHOCK_block .title
+    {
+        font-size: 80px;
+
+        margin-top: 28px;
+
+        letter-spacing: 56px;
+    }
+
+
+    .fitnesSHOCK_block .tags
+    {
+        font-size: 15px;
+
+        width: 448px;
+        margin-top: 40px;
+        margin-bottom: -12px;
+        margin-left: -20px;
+    }
+
+    .fitnesSHOCK_block .tags > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .fitnesSHOCK_block .image
+    {
+        width: 784px;
+        height: 100%;
+        margin-left: -680px;
+    }
+
+
+
+    /*---------------
+        TIM block
+    ---------------*/
+    .TIM_block .data
+    {
+        width: 528px;
+    }
+
+
+    .TIM_block .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .TIM_block .name
+    {
+        font-size: 40px;
+    }
+
+
+    .TIM_block .site
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
+    }
+
+
+    .TIM_block .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+    .TIM_block .desc.big
+    {
+        font-size: 20px;
+
+        width: 424px;
+    }
+
+
+    .TIM_block .title
+    {
+        font-size: 80px;
+
+        margin-top: 28px;
+
+        letter-spacing: 32px;
+    }
+
+
+    .TIM_block .tags
+    {
+        font-size: 15px;
+
+        width: 448px;
+        margin-top: 40px;
+        margin-bottom: -12px;
+        margin-left: -20px;
+    }
+
+    .TIM_block .tags > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .TIM_block .image
+    {
+        width: 834px;
+        height: 100%;
+        margin-right: -767px;
+    }
+
+
+    .TIM_block .link
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------------
+        Avangard block
+    -----------------------*/
+    .avangard_block .data
+    {
+        width: 448px;
+    }
+
+
+    .avangard_block .logo
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .avangard_block .name
+    {
+        font-size: 40px;
+    }
+
+
+    .avangard_block .site
+    {
+        font-size: 18px;
+
+        margin-top: 40px;
+    }
+
+
+    .avangard_block .desc
+    {
+        font-size: 18px;
+
+        margin-top: 28px;
+    }
+
+    .avangard_block .desc.big
+    {
+        font-size: 20px;
+    }
+
+
+    .avangard_block .title
+    {
+        font-size: 80px;
+
+        margin-top: 28px;
+
+        letter-spacing: 60px;
+    }
+
+
+    .avangard_block .tags
+    {
+        font-size: 15px;
+
+        width: 448px;
+        margin-top: 40px;
+        margin-bottom: -12px;
+        margin-left: -20px;
+    }
+
+    .avangard_block .tags > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .avangard_block .image
+    {
+        width: 737px;
+        height: calc(100% + 120px);
+        margin-left: -624px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps
+    {
+        padding: 200px 0;
+    }
+
+
+    .steps ol li + li
+    {
+        margin-top: 28px;
+    }
+
+
+    .steps .title
+    {
+        font-size: 60px;
+
+        width: 856px;
+        margin-right: -19px;
+    }
+}
