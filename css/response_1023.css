@@ -726,6 +726,12 @@
     /*--------------
         Services
     --------------*/
+    .services
+    {
+        padding-top: 48px;
+    }
+
+
     .services .head
     {
         margin-bottom: 80px;
@@ -903,7 +909,6 @@
     .service_head
     {
         padding-top: 148px;
-        padding-bottom: 12px;
     }
 
 
@@ -958,6 +963,11 @@
         margin-right: -568px;
     }
 
+
+    .service_head .marquee
+    {
+        padding-bottom: 12px;
+    }
 
     .service_head .marquee .swiper-slide
     {

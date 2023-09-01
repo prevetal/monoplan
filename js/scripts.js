@@ -15,10 +15,14 @@ document.addEventListener('DOMContentLoaded', function () {
 			speed: 0,
 			spaceBetween: 0,
 			slidesPerView: 1,
-			autoplay: {
-				delay: 200,
-				disableOnInteraction: false,
-			},
+			on: {
+				init: swiper => {
+					setTimeout(() => {
+						swiper.params.autoplay.delay = 200
+						swiper.autoplay.start()
+					}, 750)
+				},
+			}
 		})
 	}
 

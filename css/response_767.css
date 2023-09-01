@@ -418,6 +418,7 @@
     --------------*/
     .services
     {
+        padding-top: 40px;
         padding-bottom: 60px;
     }
 
@@ -959,7 +960,7 @@
 
     .corporate_flag .price
     {
-        width: 300px;
+        width: 280px;
         margin-top: 48px;
     }
 

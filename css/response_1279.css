@@ -582,6 +582,7 @@
     --------------*/
     .services
     {
+        padding-top: 68px;
         padding-bottom: 80px;
     }
 
@@ -1237,7 +1238,7 @@
     {
         font-size: 20px;
 
-        padding: 16px;
+        padding: 16px 40px;
     }
 
     .corporate_flag .price .val
