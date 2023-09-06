@@ -60,7 +60,8 @@
     .first_section .image
     {
         width: 740px;
-        margin-right: -24px;
+        height: 548px;
+        margin-right: 0;
     }
 
 
@@ -121,7 +122,7 @@
 
         margin-top: 28px;
 
-        letter-spacing: 60px;
+        letter-spacing: 30px;
     }
 
 
@@ -143,9 +144,12 @@
 
     .sport_ferma_block .image
     {
-        width: 772px;
+        margin-right: -800px;
+        /* width: 772px;
         height: 100%;
-        margin-right: -716px;
+        margin-right: -716px; */
+
+        transform: scale(.85);
     }
 
 
@@ -198,7 +202,7 @@
 
         margin-top: 28px;
 
-        letter-spacing: 56px;
+        letter-spacing: 20px;
     }
 
 
@@ -220,9 +224,16 @@
 
     .fitnesSHOCK_block .image
     {
-        width: 784px;
+        /* width: 784px;
         height: 100%;
-        margin-left: -680px;
+        margin-left: -680px; */
+        margin-top: -48px;
+        margin-left: -740px;
+        /* width: 772px;
+            height: 100%;
+            margin-right: -716px; */
+
+        transform: scale(.85);
     }
 
 
@@ -277,7 +288,7 @@
 
         margin-top: 28px;
 
-        letter-spacing: 32px;
+        letter-spacing: 8px;
     }
 
 
@@ -299,9 +310,13 @@
 
     .TIM_block .image
     {
-        width: 834px;
+        margin-top: -20px;
+        margin-right: -800px;
+        /* width: 834px;
         height: 100%;
-        margin-right: -767px;
+        margin-right: -767px; */
+
+        transform: scale(.85);
     }
 
 
@@ -360,7 +375,7 @@
 
         margin-top: 28px;
 
-        letter-spacing: 60px;
+        letter-spacing: 40px;
     }
 
 
@@ -382,9 +397,13 @@
 
     .avangard_block .image
     {
-        width: 737px;
+        margin-top: -60px;
+        /* width: 737px;
         height: calc(100% + 120px);
-        margin-left: -624px;
+        margin-left: -624px; */
+        margin-left: -686px;
+
+        transform: scale(.85);
     }
 
 

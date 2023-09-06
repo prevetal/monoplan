@@ -6,6 +6,62 @@ OVERLAY = document.querySelector('.overlay')
 
 
 document.addEventListener('DOMContentLoaded', function () {
+	delay = 0
+	$('header .menu_item').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 0
+	$('.first_section .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 500
+	$('.first_section .desc span').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 0
+	$('.sport_ferma_block .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 0
+	$('.fitnesSHOCK_block .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 0
+	$('.TIM_block .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	delay = 0
+	$('.avangard_block .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
 	// Смена изображений в пермов блоке на главной
 	let mainSlider = document.querySelector('.first_section .image .swiper')
 

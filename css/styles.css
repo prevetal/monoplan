@@ -626,9 +626,8 @@ header .scroll
 
 header .cont
 {
-    animation: slideDown .75s linear;
-
-    animation-fill-mode: forwards;
+    /* animation: slideDown .75s linear;
+    animation-fill-mode: forwards; */
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -656,6 +655,22 @@ header .menu
 {
     margin-right: auto;
     margin-left: 80px;
+}
+
+
+header .menu_item
+{
+    transition: .2s ease-out;
+    transform: translateY(85%);
+
+    opacity: 0;
+}
+
+header .menu.animated .menu_item
+{
+    transform: translateY(0%);
+
+    opacity: 1;
 }
 
 
@@ -1354,8 +1369,19 @@ header .feedback_btn:hover
     padding-bottom: 39px;
 
     white-space: nowrap;
-    letter-spacing: 32.55px;
+    letter-spacing: 30px;
     text-transform: uppercase;
+}
+
+.first_section .title span
+{
+    display: inline-block;
+
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
+
+    opacity: 0;
 }
 
 .first_section .title .br
@@ -1379,12 +1405,20 @@ header .feedback_btn:hover
     background: currentColor;
 }
 
-.first_section .title .animate
+
+.first_section .title.animated span
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+/* .first_section .title .animate
 {
     animation: slideDown .75s linear;
 
     animation-fill-mode: forwards;
-}
+} */
 
 
 .first_section .desc.big
@@ -1412,13 +1446,32 @@ header .feedback_btn:hover
     margin-top: 54px;
 }
 
+.first_section .desc span
+{
+    display: inline-block;
 
-.first_section .desc .animate
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
+
+    opacity: 0;
+}
+
+
+.first_section .desc.animated span
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+/* .first_section .desc .animate
 {
     animation: slideDown .75s linear;
 
     animation-fill-mode: forwards;
-}
+} */
 
 
 
@@ -1433,6 +1486,18 @@ header .feedback_btn:hover
     height: 570px;
     margin-right: -148px;
     margin-left: auto;
+
+    transition: .3s ease-out .5s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.first_section .image.animated
+{
+    transform: translateY(0%);
+
+    opacity: 1;
 }
 
 
@@ -1464,7 +1529,7 @@ header .feedback_btn:hover
     display: block;
 
     width: 100%;
-    height: 0;
+    height: 100%;
 
     box-shadow: 34px 28px 50px -20px rgba(145, 145, 242, .72);
 
@@ -1472,12 +1537,12 @@ header .feedback_btn:hover
 }
 
 
-.first_section .image .swiper-initialized img
+/* .first_section .image .swiper-initialized img
 {
     animation: slideDownImage .75s linear;
 
     animation-fill-mode: forwards;
-}
+} */
 
 
 
@@ -1641,8 +1706,8 @@ header .feedback_btn:hover
 
     display: none;
 
-    width: calc(100% + 40px);
-    margin: 20px -20px 0;
+    width: calc(100% + 48px);
+    margin: 20px -24px 0;
 }
 
 .sport_ferma_block .mob_img img
@@ -1665,18 +1730,25 @@ header .feedback_btn:hover
 
     margin-top: 27px;
 
-    transition: .3s linear .2s;
-    transform: translateY(100%);
     white-space: nowrap;
-    letter-spacing: 70.84px;
+    letter-spacing: 30px;
     text-transform: uppercase;
+}
+
+.sport_ferma_block .title span
+{
+    display: inline-block;
+
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
 
     opacity: 0;
 }
 
-.sport_ferma_block .title.animated
+.sport_ferma_block .title.animated span
 {
-    transform: none;
+    transform: translateY(0%);
 
     opacity: 1;
 }
@@ -1737,9 +1809,98 @@ header .feedback_btn:hover
     pointer-events: none;
 }
 
-.sport_ferma_block .image img
+
+.sport_ferma_block .image .img1
 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
     display: block;
+
+    transition: .3s linear .4s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.sport_ferma_block .image.animated .img1
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.sport_ferma_block .image .img2
+{
+    position: absolute;
+    top: 74px;
+    right: 74px;
+
+    display: block;
+
+    transition: .3s linear .6s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.sport_ferma_block .image.animated .img2
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.sport_ferma_block .image .img3
+{
+    position: absolute;
+    bottom: 54px;
+    left: 90px;
+
+    display: block;
+
+    transition: .3s linear .8s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.sport_ferma_block .image.animated .img3
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.sport_ferma_block .image .img4
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: block;
+
+    transition: .3s linear 1s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.sport_ferma_block .image.animated .img4
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.sport_ferma_block .image img.tablet_img
+{
+    display: none;
 
     max-height: 100%;
 }
@@ -1890,8 +2051,8 @@ header .feedback_btn:hover
 
     display: none;
 
-    width: calc(100% + 40px);
-    margin: 20px -20px 0;
+    width: calc(100% + 48px);
+    margin: 20px -24px 0;
 }
 
 .fitnesSHOCK_block .mob_img img
@@ -1915,18 +2076,25 @@ header .feedback_btn:hover
     margin-top: 27px;
     margin-left: -680px;
 
-    transition: .3s linear .2s;
-    transform: translateY(100%);
     white-space: nowrap;
-    letter-spacing: 70.84px;
+    letter-spacing: 20px;
     text-transform: uppercase;
+}
+
+.fitnesSHOCK_block .title span
+{
+    display: inline-block;
+
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
 
     opacity: 0;
 }
 
-.fitnesSHOCK_block .title.animated
+.fitnesSHOCK_block .title.animated span
 {
-    transform: none;
+    transform: translateY(0%);
 
     opacity: 1;
 }
@@ -1986,9 +2154,120 @@ header .feedback_btn:hover
     pointer-events: none;
 }
 
-.fitnesSHOCK_block .image img
+
+.fitnesSHOCK_block .image .img1
 {
+    position: absolute;
+    top: 122px;
+    left: 75px;
+
     display: block;
+
+    transition: .3s linear .4s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.fitnesSHOCK_block .image.animated .img1
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.fitnesSHOCK_block .image .img2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+
+    transition: .3s linear .6s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.fitnesSHOCK_block .image.animated .img2
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.fitnesSHOCK_block .image .img3
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    transition: .3s linear .8s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.fitnesSHOCK_block .image.animated .img3
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.fitnesSHOCK_block .image .img4
+{
+    position: absolute;
+    bottom: 0;
+    left: 324px;
+
+    display: block;
+
+    transition: .3s linear 1s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.fitnesSHOCK_block .image.animated .img4
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.fitnesSHOCK_block .image .img5
+{
+    position: absolute;
+    right: 0;
+    bottom: 59px;
+
+    display: block;
+
+    transition: .3s linear 1.2s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.fitnesSHOCK_block .image.animated .img5
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.fitnesSHOCK_block .image img.tablet_img
+{
+    display: none;
 
     min-width: 400px;
     max-height: 100%;
@@ -2121,8 +2400,8 @@ header .feedback_btn:hover
 
     display: none;
 
-    width: calc(100% + 40px);
-    margin: 20px -20px 0;
+    width: calc(100% + 48px);
+    margin: 20px -24px 0;
 }
 
 .TIM_block .mob_img img
@@ -2145,18 +2424,25 @@ header .feedback_btn:hover
 
     margin-top: 27px;
 
-    transition: .3s linear .2s;
-    transform: translateY(100%);
     white-space: nowrap;
-    letter-spacing: 29.7px;
+    letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+.TIM_block .title span
+{
+    display: inline-block;
+
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
 
     opacity: 0;
 }
 
-.TIM_block .title.animated
+.TIM_block .title.animated span
 {
-    transform: none;
+    transform: translateY(0%);
 
     opacity: 1;
 }
@@ -2249,9 +2535,98 @@ header .feedback_btn:hover
     pointer-events: none;
 }
 
-.TIM_block .image img
+
+.TIM_block .image .img1
 {
+    position: absolute;
+    top: 0;
+    left: 0;
+
     display: block;
+
+    transition: .3s linear .4s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.TIM_block .image.animated .img1
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.TIM_block .image .img2
+{
+    position: absolute;
+    top: 101px;
+    right: 0;
+
+    display: block;
+
+    transition: .3s linear .6s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.TIM_block .image.animated .img2
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.TIM_block .image .img3
+{
+    position: absolute;
+    bottom: 29px;
+    left: 0;
+
+    display: block;
+
+    transition: .3s linear .8s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.TIM_block .image.animated .img3
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.TIM_block .image .img4
+{
+    position: absolute;
+    right: 140px;
+    bottom: 0;
+
+    display: block;
+
+    transition: .3s linear 1s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.TIM_block .image.animated .img4
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.TIM_block .image img.tablet_img
+{
+    display: none;
 
     max-height: 100%;
 }
@@ -2384,8 +2759,8 @@ header .feedback_btn:hover
 
     display: none;
 
-    width: calc(100% + 40px);
-    margin: 20px -20px 0;
+    width: calc(100% + 48px);
+    margin: 20px -24px 0;
 }
 
 .avangard_block .mob_img img
@@ -2409,18 +2784,25 @@ header .feedback_btn:hover
     margin-top: 57px;
     margin-left: -680px;
 
-    transition: .3s linear .2s;
-    transform: translateY(100%);
     white-space: nowrap;
-    letter-spacing: 70.84px;
+    letter-spacing: 44px;
     text-transform: uppercase;
+}
+
+.avangard_block .title span
+{
+    display: inline-block;
+
+    transition: .2s ease-out;
+    transform: translateY(85%);
+    vertical-align: top;
 
     opacity: 0;
 }
 
-.avangard_block .title.animated
+.avangard_block .title.animated span
 {
-    transform: none;
+    transform: translateY(0%);
 
     opacity: 1;
 }
@@ -2480,9 +2862,99 @@ header .feedback_btn:hover
     pointer-events: none;
 }
 
-.avangard_block .image img
+
+.avangard_block .image .img1
 {
+    position: absolute;
+    top: 29px;
+    left: 0;
+
     display: block;
+
+    transition: .3s linear .4s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.avangard_block .image.animated .img1
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.avangard_block .image .img2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+
+    transition: .3s linear .6s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.avangard_block .image.animated .img2
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.avangard_block .image .img3
+{
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 235px;
+
+    display: block;
+
+    transition: .3s linear .8s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.avangard_block .image.animated .img3
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.avangard_block .image .img4
+{
+    position: absolute;
+    top: 450px;
+    right: 0;
+
+    display: block;
+
+    transition: .3s linear 1s;
+    transform: translateY(25%);
+
+    opacity: 0;
+}
+
+.avangard_block .image.animated .img4
+{
+    transform: translateY(0%);
+
+    opacity: 1;
+}
+
+
+.avangard_block .image img.tablet_img
+{
+    display: none;
 
     min-width: 400px;
     max-height: 100%;

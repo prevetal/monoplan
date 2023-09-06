@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 	// Ленивая загрузка
-	const boxes = document.querySelectorAll('.lazyload, .animate_title')
+	const boxes = document.querySelectorAll('.lazyload, .animate')
 
 	function scrollTracking(entries) {
 		for (const entry of entries) {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				entry.target.classList.add('loaded')
 			}
 
-			if (entry.intersectionRatio >= 0.2 && entry.target.classList.contains('animate_title') && !entry.target.classList.contains('animated')) {
+			if (entry.intersectionRatio >= 0.2 && entry.target.classList.contains('animate') && !entry.target.classList.contains('animated')) {
 				entry.target.classList.add('animated')
 			}
 		}

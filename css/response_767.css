@@ -90,15 +90,12 @@
 
     .first_section .title
     {
+        display: flex;
+
         margin-bottom: 15px;
 
         white-space: normal;
         letter-spacing: normal;
-    }
-
-    .first_section .title .animate
-    {
-        display: flex;
 
         justify-content: space-between;
         align-items: center;
@@ -163,8 +160,6 @@
         font-size: 48px;
 
         margin-top: -42px;
-
-        letter-spacing: 13px;
     }
 
 
@@ -213,7 +208,6 @@
 
         margin-top: -42px;
 
-        letter-spacing: 14px;
         text-transform: none;
     }
 
@@ -263,7 +257,6 @@
 
         margin-top: -42px;
 
-        letter-spacing: 6px;
         text-transform: none;
     }
 
@@ -313,7 +306,6 @@
 
         margin-top: -42px;
 
-        letter-spacing: 27px;
         text-transform: none;
     }
 

@@ -151,7 +151,7 @@
     {
         font-size: 80px;
 
-        letter-spacing: 30px;
+        letter-spacing: 24px;
     }
 
 
@@ -168,7 +168,9 @@
 
     .first_section .image
     {
-        width: 598px;
+        width: 580px;
+        height: 468px;
+        margin-right: -24px;
     }
 
 
@@ -221,7 +223,7 @@
 
         margin-top: 24px;
 
-        letter-spacing: 40px;
+        letter-spacing: 21px;
     }
 
 
@@ -253,6 +255,17 @@
         width: 730px;
         height: 100%;
         margin-right: -692px;
+    }
+
+
+    .sport_ferma_block .image img
+    {
+        display: none !important;
+    }
+
+    .sport_ferma_block .image img.tablet_img
+    {
+        display: block !important;
     }
 
 
@@ -300,7 +313,7 @@
         margin-top: 24px;
         margin-left: -503px;
 
-        letter-spacing: 40px;
+        letter-spacing: 12px;
     }
 
 
@@ -331,7 +344,19 @@
     {
         width: 712px;
         height: 100%;
+        margin-top: -4px;
         margin-left: -624px;
+    }
+
+
+    .fitnesSHOCK_block .image img
+    {
+        display: none !important;
+    }
+
+    .fitnesSHOCK_block .image img.tablet_img
+    {
+        display: block !important;
     }
 
 
@@ -378,7 +403,7 @@
 
         margin-top: 24px;
 
-        letter-spacing: 22px;
+        letter-spacing: 5px;
     }
 
 
@@ -410,6 +435,17 @@
         width: 762px;
         height: 100%;
         margin-right: -693px;
+    }
+
+
+    .TIM_block .image img
+    {
+        display: none !important;
+    }
+
+    .TIM_block .image img.tablet_img
+    {
+        display: block !important;
     }
 
 
@@ -461,9 +497,9 @@
         font-size: 68px;
 
         margin-top: 24px;
-        margin-left: -296px;
+        margin-left: -492px;
 
-        letter-spacing: 40px;
+        letter-spacing: 25px;
     }
 
 
@@ -495,6 +531,17 @@
         width: 688px;
         height: calc(100% + 100px);
         margin-left: -600px;
+    }
+
+
+    .avangard_block .image img
+    {
+        display: none !important;
+    }
+
+    .avangard_block .image img.tablet_img
+    {
+        display: block !important;
     }
 
 
