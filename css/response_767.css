@@ -681,6 +681,7 @@
     {
         width: 100%;
         min-width: 0;
+        height: auto;
     }
 
 
@@ -722,20 +723,377 @@
     }
 
 
-    .projects .project.margin
+
+    .projects .project1
     {
-        margin-top: 0;
+        height: auto;
     }
 
 
-    .projects .project img
+    .projects .project1 .collection1
+    {
+        height: 771px;
+    }
+
+
+    .projects .project1 .collection1 .img1
+    {
+        top: 25px;
+        left: -20px;
+
+        width: 411px;
+        height: 74px;
+    }
+
+    .projects .project1 .collection1 .img2
+    {
+        top: 34px;
+        right: auto;
+        bottom: auto;
+        left: 2px;
+
+        width: 434px;
+        height: 332px;
+        margin-right: 0;
+    }
+
+    .projects .project1 .collection1 .img3
+    {
+        right: 0;
+        bottom: 42px;
+        left: 0;
+
+        width: 333px;
+        height: 362px;
+        margin: auto;
+    }
+
+
+    .projects .project1 .collection2
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        transition-delay: .3s;
+    }
+
+    .projects .project1 .collection2 img
+    {
+        height: auto;
+    }
+
+
+    .projects .project1 .collection3
+    {
+        position: relative;
+        bottom: 0;
+        left: 0;
+
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+
+        transition-delay: .3s;
+    }
+
+    .projects .project1 .collection3 img
+    {
+        height: auto;
+    }
+
+
+
+    .projects .project2
+    {
+        height: 990px;
+    }
+
+
+    .projects .project2 .img1
+    {
+        left: 13px;
+
+        width: 419px;
+        height: 422px;
+    }
+
+    .projects .project2 .img2
+    {
+        top: 419px;
+        left: 0;
+
+        width: 429px;
+        height: 262px;
+    }
+
+    .projects .project2 .img3
+    {
+        top: 721px;
+
+        width: 274px;
+        height: 99px;
+        margin-left: -215px;
+    }
+
+    .projects .project2 .img4
+    {
+        top: 830px;
+
+        width: 274px;
+        height: 98px;
+        margin-left: -215px;
+    }
+
+    .projects .project2 .img5
+    {
+        top: 694px;
+
+        width: 136px;
+        height: 261px;
+        margin-left: 80px;
+    }
+
+    .projects .project2 .img6
+    {
+        top: 68px;
+        left: 0;
+
+        width: 427px;
+        height: 294px;
+        margin-left: 0;
+    }
+
+
+
+    .projects .project3 .collection1
+    {
+        height: 378px;
+    }
+
+
+    .projects .project3 .collection1 .img1
+    {
+        top: 27px;
+
+        width: 259px;
+        height: 207px;
+        margin-left: -214px;
+    }
+
+    .projects .project3 .collection1 .img2
+    {
+        top: 38px;
+
+        width: 150px;
+        height: 299px;
+        margin-right: -215px;
+    }
+
+    .projects .project3 .collection1 .img3
+    {
+        bottom: 41px;
+
+        width: 259px;
+        height: 93px;
+        margin-left: -214px;
+    }
+
+
+
+    .projects .project3 .collection2
+    {
+        height: 549px;
+
+        background: #eff5e4;
+    }
+
+
+    .projects .project3 .collection2 .img1,
+    .projects .project3 .collection2 .img2
     {
         display: none;
     }
 
-    .projects .project img.mob
+    .projects .project3 .collection2 .mob_img2
     {
+        top: 0;
+        right: 0;
+
         display: block;
+
+        width: 100%;
+        height: 323px;
+        margin-right: 0;
+    }
+
+    .projects .project3 .collection2 .img3
+    {
+        bottom: -32px;
+
+        width: 483px;
+        height: 382px;
+        margin-right: -140px;
+    }
+
+
+
+    .projects .project4
+    {
+        height: 1603px;
+    }
+
+
+    .projects .project4 .img1
+    {
+        display: none;
+    }
+
+    .projects .project4 .mob_img1
+    {
+        top: 383px;
+
+        display: block;
+
+        width: 428px;
+        height: 172px;
+    }
+
+    .projects .project4 .img2
+    {
+        top: 0;
+        left: -48px;
+
+        width: 766px;
+        height: 364px;
+        margin: 0;
+    }
+
+    .projects .project4 .img3
+    {
+        top: 886px;
+
+        width: 198px;
+        height: 383px;
+        margin-right: 16px;
+    }
+
+    .projects .project4 .img4
+    {
+        top: 886px;
+
+        width: 198px;
+        height: 383px;
+        margin-left: 16px;
+    }
+
+    .projects .project4 .img5
+    {
+        right: 0;
+        bottom: 738px;
+        left: 0;
+
+        width: 428px;
+        height: 289px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projects .project4 .img6
+    {
+        right: auto;
+        bottom: 41px;
+        left: 50%;
+
+        width: 680px;
+        height: 292px;
+        margin-right: 0;
+        margin-left: -440px;
+    }
+
+
+
+    .projects .project5
+    {
+        height: 2998px;
+    }
+
+
+    .projects .project5 .img1
+    {
+        top: 0;
+        right: 0;
+        left: auto;
+
+        width: 1022px;
+        height: 554px;
+        margin-left: 0;
+    }
+
+    .projects .project5 .img2
+    {
+        top: auto;
+        right: 0;
+        bottom: 41px;
+        left: 0;
+
+        width: 327px;
+        height: 1133px;
+        margin: 0 auto;
+    }
+
+    .projects .project5 .img3
+    {
+        top: 1390px;
+        right: auto;
+        left: 50%;
+
+        display: block;
+
+        width: 202px;
+        height: 394px;
+        margin-left: -205px;
+
+        object-fit: cover;
+    }
+
+    .projects .project5 .img4
+    {
+        top: 554px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        width: 480px;
+        height: 358px;
+        margin: 0 auto;
+    }
+
+    .projects .project5 .img5
+    {
+        top: 948px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        display: block;
+
+        width: 408px;
+        height: 406px;
+        margin: 0 auto;
+    }
+
+    .projects .project5 .img6
+    {
+        top: 1390px;
+
+        width: 205px;
+        height: 394px;
+        margin-right: -215px;
     }
 
 

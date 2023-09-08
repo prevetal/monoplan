@@ -30,33 +30,156 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
-	delay = 0
+	// Анимация блока "Спорт Ферма"
+	delay = 300
+	$('.sport_ferma_block .name span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.sport_ferma_block .site a').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
 	$('.sport_ferma_block .title span').each(function () {
 		delay = delay + 50
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
+	delay = 500
+	$('.sport_ferma_block .desc span').each(function () {
+		delay = delay + 20
 
-	delay = 0
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.sport_ferma_block .tags > *').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация блока "FitnesSHOCK"
+	delay = 300
+	$('.fitnesSHOCK_block .name span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.fitnesSHOCK_block .site a').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
 	$('.fitnesSHOCK_block .title span').each(function () {
 		delay = delay + 50
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
+	delay = 500
+	$('.fitnesSHOCK_block .desc span').each(function () {
+		delay = delay + 20
 
-	delay = 0
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.fitnesSHOCK_block .tags > *').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация блока "Tim"
+	delay = 300
+	$('.TIM_block .name span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.TIM_block .site a').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
 	$('.TIM_block .title span').each(function () {
 		delay = delay + 50
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
+	delay = 500
+	$('.TIM_block .desc span').each(function () {
+		delay = delay + 20
 
-	delay = 0
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.TIM_block .tags > *').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.TIM_block .link a').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация блока "АВАНГАРД"
+	delay = 300
+	$('.avangard_block .name span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.avangard_block .site a').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
 	$('.avangard_block .title span').each(function () {
 		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.avangard_block .desc span').each(function () {
+		delay = delay + 20
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.avangard_block .tags > *').each(function () {
+		delay = delay + 20
 
 		$(this).css('transition-delay', delay + 'ms')
 	})

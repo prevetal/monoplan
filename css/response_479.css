@@ -458,6 +458,268 @@
 
 
 
+    .projects .project1 .collection1
+    {
+        height: 602px;
+    }
+
+
+    .projects .project1 .collection1 .img1
+    {
+        top: 20px;
+        left: -20px;
+
+        width: 321px;
+        height: 58px;
+    }
+
+    .projects .project1 .collection1 .img2
+    {
+        top: 27px;
+
+        width: 339px;
+        height: 260px;
+    }
+
+    .projects .project1 .collection1 .img3
+    {
+        bottom: 32px;
+
+        width: 260px;
+        height: 282px;
+    }
+
+
+
+    .projects .project2
+    {
+        height: 770px;
+    }
+
+
+    .projects .project2 .img1
+    {
+        width: 327px;
+        height: 330px;
+    }
+
+    .projects .project2 .img2
+    {
+        top: 327px;
+
+        width: 335px;
+        height: 204px;
+    }
+
+    .projects .project2 .img3
+    {
+        top: 564px;
+
+        width: 214px;
+        height: 76px;
+        margin-left: -168px;
+    }
+
+    .projects .project2 .img4
+    {
+        top: 648px;
+
+        width: 214px;
+        height: 76px;
+        margin-left: -168px;
+    }
+
+    .projects .project2 .img5
+    {
+        top: 542px;
+
+        width: 106px;
+        height: 204px;
+        margin-left: 62px;
+    }
+
+    .projects .project2 .img6
+    {
+        top: 53px;
+
+        width: 334px;
+        height: 230px;
+    }
+
+
+
+    .projects .project3 .collection1
+    {
+        height: 295px;
+    }
+
+
+    .projects .project3 .collection1 .img1
+    {
+        top: 20px;
+
+        width: 202px;
+        height: 163px;
+        margin-left: -168px;
+    }
+
+    .projects .project3 .collection1 .img2
+    {
+        top: 29px;
+
+        width: 118px;
+        height: 234px;
+        margin-right: -168px;
+    }
+
+    .projects .project3 .collection1 .img3
+    {
+        bottom: 32px;
+
+        width: 202px;
+        height: 72px;
+        margin-left: -168px;
+    }
+
+
+
+    .projects .project3 .collection2
+    {
+        height: 429px;
+    }
+
+
+    .projects .project3 .collection2 .mob_img2
+    {
+        height: 252px;
+    }
+
+    .projects .project3 .collection2 .img3
+    {
+        bottom: -20px;
+
+        width: 377px;
+        height: 298px;
+        margin-right: -120px;
+    }
+
+
+
+    .projects .project4
+    {
+        height: 1251px;
+    }
+
+
+    .projects .project4 .mob_img1
+    {
+        top: 299px;
+
+        width: 335px;
+        height: 134px;
+    }
+
+    .projects .project4 .img2
+    {
+        left: -40px;
+
+        width: 598px;
+        height: 283px;
+    }
+
+    .projects .project4 .img3
+    {
+        top: 691px;
+
+        width: 155px;
+        height: 299px;
+        margin-right: 12px;
+    }
+
+    .projects .project4 .img4
+    {
+        top: 691px;
+
+        width: 155px;
+        height: 299px;
+        margin-left: 12px;
+    }
+
+    .projects .project4 .img5
+    {
+        bottom: 576px;
+
+        width: 334px;
+        height: 226px;
+    }
+
+    .projects .project4 .img6
+    {
+        bottom: 32px;
+
+        width: auto;
+        height: 228px;
+        margin-left: -344px;
+    }
+
+
+
+    .projects .project5
+    {
+        height: 2341px;
+    }
+
+
+    .projects .project5 .img1
+    {
+        width: 798px;
+        height: 433px;
+    }
+
+    .projects .project5 .img2
+    {
+        bottom: 32px;
+
+        width: 255px;
+        height: 884px;
+    }
+
+    .projects .project5 .img3
+    {
+        top: 1085px;
+
+        width: 157px;
+        height: 308px;
+        margin-left: -160px;
+    }
+
+    .projects .project5 .img4
+    {
+        top: 433px;
+
+        width: 375px;
+        height: 278px;
+    }
+
+    .projects .project5 .img5
+    {
+        top: 739px;
+
+        width: 318px;
+        height: 318px;
+    }
+
+    .projects .project5 .img6
+    {
+        top: 1085px;
+
+        width: 160px;
+        height: 307px;
+        margin-right: -168px;
+    }
+
+
+
     /*-----------------
         How we work
     -----------------*/

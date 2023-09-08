@@ -957,7 +957,7 @@
     .what_we_create .image img
     {
         width: 1000px;
-        height: auto;
+        height: 671px;
     }
 
 
@@ -1014,6 +1014,274 @@
     .projects .block_head
     {
         margin-bottom: 48px;
+    }
+
+
+
+    .projects .project1
+    {
+        height: 1163px;
+    }
+
+
+    .projects .project1 .collection1
+    {
+        height: 604px;
+    }
+
+
+    .projects .project1 .collection1 .img1
+    {
+        top: 45px;
+
+        width: 637px;
+        height: 115px;
+    }
+
+    .projects .project1 .collection1 .img2
+    {
+        width: 721px;
+        height: 551px;
+        margin-right: -168px;
+    }
+
+    .projects .project1 .collection1 .img3
+    {
+        bottom: 33px;
+
+        width: 371px;
+        height: 402px;
+        margin-left: 99px;
+    }
+
+
+
+    .projects .project2
+    {
+        height: 1736px;
+    }
+
+
+    .projects .project2 .img1
+    {
+        right: 0;
+        left: 0;
+
+        margin: 0 auto;
+    }
+
+    .projects .project2 .img2
+    {
+        top: 827px;
+        right: 0;
+        left: 0;
+
+        width: 696px;
+        height: 425px;
+        margin: 0 auto;
+    }
+
+    .projects .project2 .img3
+    {
+        top: 1307px;
+
+        width: 466px;
+        height: 165px;
+        margin-left: -351px;
+    }
+
+    .projects .project2 .img4
+    {
+        top: 1491px;
+
+        width: 466px;
+        height: 165px;
+        margin-left: -351px;
+    }
+
+    .projects .project2 .img5
+    {
+        top: 1273px;
+
+        width: 216px;
+        height: 416px;
+        margin-left: 132px;
+    }
+
+    .projects .project2 .img6
+    {
+        top: 328px;
+        bottom: auto;
+    }
+
+
+
+    .projects .project3 .collection1
+    {
+        height: 707px;
+    }
+
+
+    .projects .project3 .collection1 .img1
+    {
+        top: 9px;
+
+        width: 561px;
+        height: 452px;
+        margin-left: -482px;
+    }
+
+    .projects .project3 .collection1 .img2
+    {
+        top: 33px;
+
+        width: 312px;
+        height: 619px;
+        margin-right: -472px;
+    }
+
+    .projects .project3 .collection1 .img3
+    {
+        bottom: 52px;
+
+        width: 562px;
+        height: 199px;
+        margin-left: -472px;
+    }
+
+
+
+    .projects .project3 .collection2
+    {
+        height: 568px;
+    }
+
+
+    .projects .project3 .collection2 .img1
+    {
+        top: 31px;
+
+        width: 229px;
+        height: 368px;
+        margin-left: -472px;
+    }
+
+    .projects .project3 .collection2 .img2
+    {
+        top: 31px;
+
+        width: 687px;
+        height: 458px;
+        margin-right: -472px;
+    }
+
+    .projects .project3 .collection2 .img3
+    {
+        right: 50%;
+        bottom: -88px;
+
+        margin-right: 92px;
+    }
+
+
+
+    .projects .project4
+    {
+        height: 1786px;
+    }
+
+
+    .projects .project4 .img1
+    {
+        top: 65px;
+
+        width: 944px;
+        height: 200px;
+    }
+
+    .projects .project4 .img2
+    {
+        top: 290px;
+        right: 0;
+        left: 0;
+
+        width: 940px;
+        height: 413px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projects .project4 .img3
+    {
+        top: 728px;
+        right: 50%;
+        left: auto;
+
+        margin-right: -472px;
+        margin-left: 0;
+    }
+
+    .projects .project4 .img4
+    {
+        top: auto;
+        right: auto;
+        bottom: 59px;
+        left: 50%;
+
+        margin-right: 0;
+        margin-left: -472px;
+    }
+
+    .projects .project4 .img5
+    {
+        bottom: 650px;
+
+        width: 604px;
+        height: 408px;
+        margin-left: -472px;
+    }
+
+    .projects .project4 .img6
+    {
+        bottom: 119px;
+
+        margin-right: -472px;
+    }
+
+
+
+    .projects .project5 .img1
+    {
+        margin-left: -614px;
+    }
+
+    .projects .project5 .img2
+    {
+        right: 50%;
+        left: auto;
+
+        margin-right: -471px;
+        margin-left: auto;
+    }
+
+    .projects .project5 .img3
+    {
+        display: none;
+    }
+
+    .projects .project5 .img4
+    {
+        margin-left: -420px;
+    }
+
+    .projects .project5 .img5
+    {
+        display: none;
+    }
+
+    .projects .project5 .img6
+    {
+        margin-right: -220px;
     }
 
 
