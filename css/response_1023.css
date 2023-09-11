@@ -185,7 +185,7 @@
     {
         font-size: 68px;
 
-        letter-spacing: 16px;
+        letter-spacing: 6px;
     }
 
 
@@ -982,11 +982,11 @@
 
     .service_head .image
     {
-        top: -132px;
+        top: -260px;
 
-        width: auto;
-        height: 680px;
-        margin-right: -568px;
+        margin-right: -660px;
+
+        transform: scale(.75);
     }
 
 

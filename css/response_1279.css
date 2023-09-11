@@ -647,7 +647,8 @@
         padding: 0 12px;
     }
 
-    .services .head .title span
+    .services .head .title span.color1,
+    .services .head .title span.color2
     {
         margin: 0 -12px;
         padding: 0 12px;
@@ -881,11 +882,11 @@
 
     .service_head .image
     {
-        top: -140px;
+        top: -240px;
 
-        width: auto;
-        height: 760px;
-        margin-right: -642px;
+        margin-right: -678px;
+
+        transform: scale(.8);
     }
 
 

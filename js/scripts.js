@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	delay = 500
 	$('.first_section .desc span').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
@@ -54,14 +54,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	delay = 500
 	$('.sport_ferma_block .desc span').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
 	delay = 500
 	$('.sport_ferma_block .tags > *').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
@@ -91,14 +91,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	delay = 500
 	$('.fitnesSHOCK_block .desc span').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
 	delay = 500
 	$('.fitnesSHOCK_block .tags > *').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
@@ -128,21 +128,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	delay = 500
 	$('.TIM_block .desc span').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
 	delay = 500
 	$('.TIM_block .tags > *').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
 	delay = 500
 	$('.TIM_block .link a').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
@@ -172,14 +172,229 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	delay = 500
 	$('.avangard_block .desc span').each(function () {
-		delay = delay + 20
+		delay = delay + 25
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
 
 	delay = 500
 	$('.avangard_block .tags > *').each(function () {
-		delay = delay + 20
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация заголовка страниц
+	delay = 0
+	$('.page_title span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация заголовков блоков
+	$('.block_head').each(function () {
+		delay = 300
+
+		$(this).find('.title span').each(function () {
+			delay = delay + 50
+
+			$(this).css('transition-delay', delay + 'ms')
+		})
+	})
+
+	$('.block_head').each(function () {
+		delay = 300
+
+		$(this).find('.desc span').each(function () {
+			delay = delay + 25
+
+			$(this).css('transition-delay', delay + 'ms')
+		})
+	})
+
+
+	// Анимация страницы контактов
+	delay = 300
+	$('.contacts_info .item .label').each(function () {
+		delay = delay + 150
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.contacts_info .item .val').each(function () {
+		delay = delay + 150
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.contacts_info .requisites .label').each(function () {
+		delay = delay + 150
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 700
+	$('.contacts_info .requisites .vals').each(function () {
+		delay = delay + 150
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация страницы услуг
+	delay = 0
+	$('.services .head .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.services .head .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 200
+	$('.services .service').each(function () {
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.cooperation_options .row > *').each(function () {
+		delay = delay + 150
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация страницы услуги
+	delay = 0
+	$('.service_head .pre_title').each(function () {
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 150
+	$('.service_head .title').each(function () {
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 250
+	$('.service_head .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.what_we_create .data .row > *').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.when_needed .data ul li span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.how_we_work .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.stages .row > *').each(function () {
+		delay = delay + 100
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.test_week .data .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.test_week .price > *').each(function () {
+		delay = delay + 100
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 750
+	$('.test_week .calendar').each(function () {
+		delay = delay + 100
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.team .title').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.team .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 750
+	$('.team .items span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('.corporate_flag .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 500
+	$('.corporate_flag .price > *').each(function () {
+		delay = delay + 100
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+
+	// Анимация подвала сайта
+	delay = 0
+	$('footer .data .title span').each(function () {
+		delay = delay + 50
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 150
+	$('footer .data .desc span').each(function () {
+		delay = delay + 25
+
+		$(this).css('transition-delay', delay + 'ms')
+	})
+
+	delay = 300
+	$('footer .contacts > *').each(function () {
+		delay = delay + 100
 
 		$(this).css('transition-delay', delay + 'ms')
 	})
