@@ -588,6 +588,7 @@ header
 header .close_btn
 {
     position: absolute;
+    z-index: 9;
     top: 24px;
     right: 24px;
 
